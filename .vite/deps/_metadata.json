@@ -1,8 +1,43 @@
 {
-  "hash": "1b912f5e",
+  "hash": "d9ac9b43",
   "configHash": "97e6c3c3",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "99d926ac",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "6685dd3e",
+  "browserHash": "52470f25",
+  "optimized": {
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "60861fc2",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "5aeb3acc",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3c7ac04d",
+      "needsInterop": true
+    },
+    "react-owl-carousel": {
+      "src": "../../node_modules/react-owl-carousel/umd/OwlCarousel.js",
+      "file": "react-owl-carousel.js",
+      "fileHash": "f108134f",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-XQIPT53K": {
+      "file": "chunk-XQIPT53K.js"
+    },
+    "chunk-KS2M7ZJI": {
+      "file": "chunk-KS2M7ZJI.js"
+    },
+    "chunk-5WRI5ZAA": {
+      "file": "chunk-5WRI5ZAA.js"
+    }
+  }
 }
