@@ -156,12 +156,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center text-md-left">
-              <p className="footer-copyright">
-                © 2018 Mazaar Shop, Template by{" "}
-                <a href="http://nileforest.com/" target="_blank">
-                  Nileforest
-                </a>
-              </p>
+              <p className="footer-copyright">© 2018 Tokyoshop Shop</p>
             </div>
             <div className="col-md-6 text-center text-md-right">
               <img src="img/payment_logos.png" alt="payment logos" />
