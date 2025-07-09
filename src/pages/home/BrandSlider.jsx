@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { Link } from "react-router-dom";
 
 const BrandSlider = () => {
   return (
@@ -20,49 +21,49 @@ const BrandSlider = () => {
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/001.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/002.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/003.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/004.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/005.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
           {/*Item*/}
           <div className="item">
             <div className="brand-item">
-              <a>
+              <Link to="/product-listing">
                 <img src="img/brand/006.png" alt="brand" />
-              </a>
+              </Link>
             </div>
           </div>
         </OwlCarousel>

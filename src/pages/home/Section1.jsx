@@ -2,6 +2,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -15,7 +16,7 @@ const Section1 = () => {
         nav={false}
         dots={false}
         autoplay={true}
-        autoplayTimeout={3000}
+        autoplayTimeout={1500}
       >
         {/*Item*/}
         <div
@@ -40,9 +41,12 @@ const Section1 = () => {
                     <br />
                     Made for her
                   </h1>
-                  <a href="#" className="btn btn--primary space--1">
+                  <Link
+                    to="/product-listing"
+                    className="btn btn--primary space--1"
+                  >
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,9 +75,12 @@ const Section1 = () => {
                     <br />
                     &amp; Collection
                   </h1>
-                  <a href="#" className="btn btn--primary space--1">
+                  <Link
+                    to="/product-listing"
+                    className="btn btn--primary space--1"
+                  >
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
                 &gt;
               </div>
@@ -103,9 +110,12 @@ const Section1 = () => {
                     <br />
                     Collection
                   </h1>
-                  <a href="#" className="btn btn--primary space--1">
+                  <Link
+                    to="/product-listing"
+                    className="btn btn--primary space--1"
+                  >
                     Shop Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -134,9 +144,12 @@ const Section1 = () => {
                     src="img/slide_img/caption_001.png"
                     alt="Summer Sale"
                   />
-                  <a href="#" className="btn btn--white space--1">
+                  <Link
+                    to="/product-listing"
+                    className="btn btn--white space--1"
+                  >
                     Get Offers
-                  </a>
+                  </Link>
                 </div>
                 &gt;
               </div>

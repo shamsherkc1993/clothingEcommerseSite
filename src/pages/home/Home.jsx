@@ -1,13 +1,12 @@
 import React from "react";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import Banner from "./Banner";
 import Categories from "./Categories";
 import ProductSlider from "./ProductSlider";
 import BestSeller from "./BestSeller";
 import Testimonials from "./Testimonials";
 import LatestNews from "./LatestNews";
-import BrandSlider from "./BrandSlider";
+import Section1 from "./Section1";
 
 const Home = () => {
   return (
@@ -27,13 +26,12 @@ const Home = () => {
       </div>
       <Header />
       <div className="page-container">
-        <Banner />
+        <Section1 />
         <Categories />
         <ProductSlider />
         <BestSeller />
         <Testimonials />
         <LatestNews />
-        <BrandSlider />
       </div>
       <Footer />
     </div>

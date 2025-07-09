@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Section2 = () => {
   return (
@@ -16,17 +17,17 @@ const Section2 = () => {
             {/*Categories Item*/}
             <div className="categories-item categories-item_1">
               <div className="categories-image">
-                <a className="categories-img-link">
+                <Link to="/product-listing" className="categories-img-link">
                   <img src="img/categories/001.jpg" alt="Women Accesories" />
-                </a>
+                </Link>
               </div>
               <div className="categories-content-overlay">
-                <a
+                <Link
+                  to="/product-listing"
                   className="categories-caption categories-caption-bottom"
-                  href="#"
                 >
                   Women Accesories
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -35,17 +36,17 @@ const Section2 = () => {
             {/*Categories Item*/}
             <div className="categories-item categories-item_1">
               <div className="categories-image">
-                <a className="categories-img-link">
+                <Link to="/product-listing" className="categories-img-link">
                   <img src="img/categories/002.jpg" alt="Women Accesories" />
-                </a>
+                </Link>
               </div>
               <div className="categories-content-overlay">
-                <a
+                <Link
+                  to="/product-listing"
                   className="categories-caption categories-caption-bottom"
-                  href="#"
                 >
                   Kids Fashion
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -54,17 +55,17 @@ const Section2 = () => {
             {/*Categories Item*/}
             <div className="categories-item categories-item_1">
               <div className="categories-image">
-                <a className="categories-img-link">
+                <Link to="/product-listing" className="categories-img-link">
                   <img src="img/categories/003.jpg" alt="Women Accesories" />
-                </a>
+                </Link>
               </div>
               <div className="categories-content-overlay">
-                <a
+                <Link
+                  to="/product-listing"
                   className="categories-caption categories-caption-bottom"
-                  href="#"
                 >
                   Women Fashion
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -73,17 +74,17 @@ const Section2 = () => {
             {/*Categories Item*/}
             <div className="categories-item categories-item_1">
               <div className="categories-image">
-                <a className="categories-img-link">
+                <Link to="/product-listing" className="categories-img-link">
                   <img src="img/categories/004.jpg" alt="Women Accesories" />
-                </a>
+                </Link>
               </div>
               <div className="categories-content-overlay">
-                <a
+                <Link
+                  to="/product-listing"
                   className="categories-caption categories-caption-bottom"
-                  href="#"
                 >
                   Mens Collection
-                </a>
+                </Link>
               </div>
             </div>
           </div>
